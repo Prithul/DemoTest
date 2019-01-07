@@ -16,4 +16,14 @@ public class SearchPageAmazon extends CommonAPI {
             typeOnElementNEnter("#twotabsearchtextbox","iPhone");
         }
 
+    public void getCurrentURL() {
+
+        System.out.println("Current URL: " + driver.getCurrentUrl());
+    }
+
+    public void getPageTitle() {
+
+        System.out.println("Current Page Title: " + driver.getTitle());
+    }
+
 }
