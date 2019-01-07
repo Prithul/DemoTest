@@ -12,4 +12,16 @@ public class TestHomeAmazon extends SearchPageAmazon {
         searchMenu();
     }
 
+    @Test
+    public void test2() {
+
+        getCurrentURL();
+    }
+
+    @Test
+    public void test3(){
+
+        getPageTitle();
+    }
+
 }
