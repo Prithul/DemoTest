@@ -8,7 +8,7 @@ public class TestHomeCNN extends SearchPageCNN {
 
     @Test
     public void test1()throws InterruptedException{
-
+        System.out.println("change from halima");
         searchMenu();
     }
 }
