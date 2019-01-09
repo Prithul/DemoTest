@@ -10,6 +10,7 @@ public class TestHomeAmazon extends SearchPageAmazon {
     public void test1() throws InterruptedException {
 
         searchMenu();
+        System.out.println("Search Done");
     }
 
     @Test
