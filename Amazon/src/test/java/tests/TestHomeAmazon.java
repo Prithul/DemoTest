@@ -12,7 +12,7 @@ public class TestHomeAmazon extends SearchPageAmazon {
         searchMenu();
         System.out.println("Search Done!!!");
         System.out.println("Search Done!!!");
-        System.out.println("Search Done!!!");
+
     }
 
     @Test
