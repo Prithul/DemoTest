@@ -6,9 +6,9 @@ public class SearchPageFacebook extends CommonAPI {
 
     public void searchMenu() throws InterruptedException {
 
-        typeOnElementNEnter("#twotabsearchtextbox","Amela");
+        typeOnElementNEnter("#twotabsearchbox","Amela");
         navigateBack();
-        typeOnElementNEnter("#twotabsearchtextbox","Halima");
+        typeOnElementNEnter("#twotabsearchbox","Halima");
         navigateBack();
 
     }
